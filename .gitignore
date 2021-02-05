@@ -1,0 +1,4 @@
+target/
+ClasesEquivalencia/target
+.classpath
+**/*.classpath
