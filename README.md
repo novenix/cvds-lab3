@@ -50,8 +50,10 @@ Hay que cambiar la versión del compilador de Java a la versión 8, para ello, a
 COMPILAR Y EJECUTAR
 - mvn package
  *Imagen 1
+ ![](/imagenes/1.PNG)
 - mvn Test
  *Imagen 3
+ ![](/imagenes/3.PNG)
  
 EJERCICIO “REGISTRADURÍA”
 Se va a crear un proyecto base para un requerimiento de la registraduría en el cual se registrarán personas con intención de votar paras las próximas elecciones y se generarán los certificados electorales de aquellas personas cuyo voto sea válido.
@@ -66,7 +68,7 @@ PROPIEDADES
 
 EJECUTAR LAS PRUEBAS
 *imagen 2
-
+![](/imagenes/2.PNG)
 - MVN package: Este comando es usado para ejecutar todas las faces de Maven (vistas en laboratorio anterior).Realiza el trabajo de copilar, verificar y construir el proyecto.
 - MVN test: Corre los test usando frameworks de pruebas.
 - Se pueden diferenciar en que test se puede usar unicamente para correr pruebas mientras que package es mas completo pues nos copila verifica , construye el proyecto y de haber pruebas tambien las realiza
