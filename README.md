@@ -1,4 +1,4 @@
-# cvds-lab3
+# CVDS-lab3
 lab3 
 Integrantes 
 Nicolas Torres Paez :2137260 
@@ -49,10 +49,9 @@ Hay que cambiar la versión del compilador de Java a la versión 8, para ello, a
 ```
 COMPILAR Y EJECUTAR
 - mvn package
- *Imagen 1
  ![](/imagenes/1.PNG)
+ 
 - mvn Test
- *Imagen 3
  ![](/imagenes/3.PNG)
  
 EJERCICIO “REGISTRADURÍA”
@@ -67,7 +66,7 @@ PROPIEDADES
 *Imagen "clases y test"
 
 EJECUTAR LAS PRUEBAS
-*imagen 2
+
 ![](/imagenes/2.PNG)
 - MVN package: Este comando es usado para ejecutar todas las faces de Maven (vistas en laboratorio anterior).Realiza el trabajo de copilar, verificar y construir el proyecto.
 - MVN test: Corre los test usando frameworks de pruebas.
