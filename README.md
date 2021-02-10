@@ -49,7 +49,9 @@ PROPIEDADES
 - Solo se registrarán votantes válidos
 - Solo se permite una inscripción por número de documento
 
-*Imagen "clases y test"
+![](/imagenes/5.PNG)
+![](/imagenes/4.PNG)
+
 
 EJECUTAR LAS PRUEBAS
 
