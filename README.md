@@ -17,28 +17,36 @@ $ mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvd
 ```
 ![](/imagenes/aerodescuentos.PNG)
 
+---------------------------------------------------------------------------------------------------------
+
 
 CLASES DE EQUIVALENCIA
 
-CREAR UN PROYECTO CON MAVEN
-En el directorio de trabajo ejecutar el comando necesario para crear un proyecto maven, basado en un arquetipo:
-Grupo: edu.eci.cvds
-Artefacto: ClasesEquivalencia
-Paquete: edu.eci.cvds.tdd
-archetypeArtifactId: maven-archetype-quickstart
-Actualizar y crear dependencias en el proyecto
+Se crea el proyecto maven de tal manera:
 
-Busque en internet el repositorio central de maven.
-Busque el artefacto JUnit y entre a la versión más nueva
-Ingrese a la pestaña de Maven y haga click en el texto de la dependencia para copiarlo al portapapeles.
-Edite el archivo pom.xml y realice las siguientes actualizaciones:
-Agregue la dependencia copiada a la sección de dependencias.
+- Grupo: edu.eci.cvds
+- Artefacto: ClasesEquivalencia
+- Paquete: edu.eci.cvds.tdd
+- archetypeArtifactId: maven-archetype-quickstart
+- Actualizar y crear dependencias en el proyecto
+Actualizamos las dependecias.
 Hay que cambiar la versión del compilador de Java a la versión 8, para ello, agregue la sección properties antes de la sección de dependencias:
-
+```
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
+```
+```
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.7.1</version>
+    <scope>test</scope>
+</dependency>
+
+```
 COMPILAR Y EJECUTAR
 Ejecute los comandos necesarios de Maven, para compilar el proyecto y verificar que el proyecto se creó correctamente y los cambios realizados al archivo pom no generan inconvenientes.
 
