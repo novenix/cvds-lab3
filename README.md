@@ -3,22 +3,8 @@ lab3
 Integrantes 
 Nicolas Torres Paez :2137260 
 Lorenzo Marquez Pinto : 2137527
- mvn package
- 
- mvn exec:java -Dexec.mainClass="edu.eci.cvds.tdd.App"
-
-
- ## parte implementacion de pruebas
- Descargue el archivo aerodescuentos.jar y adicione esta nueva dependencia en el archivo pom.xml de su proyecto.
-Para adicionar una librería personalizada al repositorio local de maven puede ejecutar el siguiente comando.
-se debe correr este comando para poder correr los test
-```
-$ mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvds -DartifactId=aerodescuentos -Dversion=1.0.0 -Dpackaging=jar
-```
-![](/imagenes/aerodescuentos.PNG)
 
 ---------------------------------------------------------------------------------------------------------
-
 
 CLASES DE EQUIVALENCIA
 
@@ -70,6 +56,22 @@ EJECUTAR LAS PRUEBAS
 ![](/imagenes/2.PNG)
 - MVN package: Este comando es usado para ejecutar todas las faces de Maven (vistas en laboratorio anterior).Realiza el trabajo de copilar, verificar y construir el proyecto.
 - MVN test: Corre los test usando frameworks de pruebas.
-- Se pueden diferenciar en que test se puede usar unicamente para correr pruebas mientras que package es mas completo pues nos copila verifica , construye el proyecto y de haber pruebas tambien las realiza
+- Se pueden diferenciar en que test se puede usar unicamente para correr pruebas mientras que package es mas completo pues nos copila verifica , construye el proyecto y de haber pruebas tambien las realiza.
+
+EJERCICIO "DESCUENTO DE TARIFAS"
+ mvn package
+ 
+ mvn exec:java -Dexec.mainClass="edu.eci.cvds.tdd.App"
+
+
+ ## parte implementacion de pruebas
+ Descargue el archivo aerodescuentos.jar y adicione esta nueva dependencia en el archivo pom.xml de su proyecto.
+Para adicionar una librería personalizada al repositorio local de maven puede ejecutar el siguiente comando.
+se debe correr este comando para poder correr los test
+```
+$ mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvds -DartifactId=aerodescuentos -Dversion=1.0.0 -Dpackaging=jar
+```
+![](/imagenes/aerodescuentos.PNG)
+
 
 
