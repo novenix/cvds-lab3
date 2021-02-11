@@ -15,6 +15,14 @@ public class TarifasTest {
 
     @Test
     public void validarEdadMenor(){
+		        try{
+            valorTarifa = c.calculoTarifa(500000,15,-1);
+            //debe lanzar error, si lanza error pasa la prueba por llegar a catch
+        }
+        catch ( Exception e){
+            Assert.assertTrue(true);
+        }
+    }
         @Test
         public void validarAntelacionNegativa(){
             // error dias antelación menor a 0
@@ -39,14 +47,7 @@ public class TarifasTest {
             }
         }
        //probar edades negativas
-        try{
-            valorTarifa = c.calculoTarifa(500000,15,-1);
-            //debe lanzar error, si lanza error pasa la prueba por llegar a catch
-        }
-        catch ( Exception e){
-            Assert.assertTrue(true);
-        }
-    }
+
     @Test
     public void validarEdad(){
         // error por edad  0
