@@ -76,6 +76,6 @@ $ mvn install:install-file -Dfile=aerodescuentos-1.0.0.jar -DgroupId=edu.eci.cvd
 ![](/imagenes/aerodescuentos.PNG)
 
 
-### Copilacion
+### Copilacion y pruebas
 
-*Imagen 6
+![](/imagenes/6.PNG)
